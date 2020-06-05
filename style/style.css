@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100vh;
+}
+
+.title-store-locator {
+    top: 100px;
+    left: 100px;
+    font-size: 40px;
+    z-index: 30;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.search-input-container {
+    width: 300px;
+    height: 40px;
+    background-color: lightgrey;
+    position: absolute;
+    z-index: 30;
+    top: 150px;
+    left: 100px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search input {
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search i {
+    color: white;
+    font-size: 25px;
+}
+
+.store-list-container {
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 30;
+    top: 210px;
+    left: 100px;
+    border-radius: 30px;
+    bottom: 20px;
+}
+
+.store-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.store-container {
+    display: flex;
+    border-bottom: 1px solid #979797;
+    cursor: pointer;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.store-container-background {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.store-container-background:hover {
+    background-color: #ccc;
+
+}
+
+.store-info-container {
+    flex-grow: 1;
+}
+
+.store-address {
+    font-size: 21px;
+    color: #514C4C;
+    margin-top: 30px;
+}
+
+.store-phone-number {
+    color: #B5ADAD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.store-number-container {
+    align-items: center;
+    display: flex;
+}
+
+.store-number {
+    width: 30px;
+    height: 30px;
+    background-color: lightseagreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.store-address span {
+    display: block;
+}
+
+.store-info-window {
+    max-width: 300px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.store-info-name {
+    /*font-size: 24px;
+    font-weight: bold;
+    color: tomato;*/
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid  rgb(196, 211, 240);
+}
+
+.store-info-status {
+    margin-top: 6px;
+    border-bottom: 1px solid  cornflowerblue;
+    padding-bottom: 6px;
+}
+
+.store-info-address {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.store-info-phone {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(181, 181, 235);
+    border-radius: 50%;
+    color: white; /*the item inside the circle*/
+    display: flex;
+    justify-content: center; /*align horizontally*/
+    align-items: center; /*align vertically*/
+    margin-right: 8px;
+}
+
+.store.address.name {
+    display: flex;
+    justify-content: center;
+}
+
+.store-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(233, 36, 102);
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.drinks-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    margin-bottom: 8px;
+}
+
+.starbucks-logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    z-index: 30;
+    border-radius: 100px;
+    justify-content: flex-start;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    z-index: 30;
+    position: absolute;
+    top: 14px;
+    left: 100px;
+}
