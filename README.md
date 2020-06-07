@@ -1,6 +1,6 @@
 # Starbucks Store Locator
 
-Access Link: https://kaixx318.github.io/starbucks-store-locator.github.io/
+Access Link: https://kaixx318.github.io/Starbucks-Store-Locator.github.io/
 
 Created using HTML, CSS, Javascript and Google Maps API
 
